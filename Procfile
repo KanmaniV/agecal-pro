@@ -1,0 +1,1 @@
+web : gunicorn agecalpro.wsgi --log-file

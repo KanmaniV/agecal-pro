@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/mainpagecss.css' %}">
+</head>
+<body>
+    <h1>Enter your details</h1>
+    FIRST NUMBER  : <input type="text" name="num1"><br>
+    <br>
+    SECOND NUMBER : <input type="text" name="num2"><br>
+    <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+             <option value="volvo">Volvo</option>
+             <option value="saab">Saab</option>
+             <option value="fiat">Fiat</option>
+             <option value="audi">Audi</option>
+        </select>
+  </form>
+    <form action="btn2">
+      <button class="button button1">SUBMIT</button>
+
+    </form>
+</body>
+</html>
