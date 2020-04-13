@@ -1,1 +1,1 @@
-web : gunicorn agecalpro.wsgi --log-file
+web : gunicorn agecalpro.wsgi --log-file-
