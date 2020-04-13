@@ -1,1 +1,1 @@
-web: gunicorn agecalpro.wgsi --log-file-
+web: gunicorn gettingstarted.wsgi --log-file -
